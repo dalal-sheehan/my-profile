@@ -1,0 +1,52 @@
+body {
+	background: url(bg.jpg) no-repeat;
+	background-size: cover;
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+}
+h1,h2,h3,h4 {
+	font-family: 'Bree Serif', serif;
+	color: #7f9669;
+
+}
+.container{
+	width: 800px;
+	margin: 0px auto;
+}
+.card{
+	background-color: lightblue;
+	padding: 5px 5px 20px 5px;
+	margin: 50px 0px;
+	border-radius: 4%;
+}
+.card img{
+	border-radius: 20%;
+}
+.linkz {
+	padding-left: 0;
+}
+.linkz li{
+	display: inline;
+	padding: 15px;
+}
+.linkz a{
+	color: #3a234882;
+	font-size: 27px;
+}
+.linkz a:hover {
+	color: #254d77;
+	font-size: 27px;
+}
+
+.given_link {
+	background-color: gray;
+	color: white;
+	padding: 5px 30px;
+	text-decoration: none;
+	border-radius: 5%;
+}
+a.given_link:hover {
+	color: white;
+	background: black;
+	font-style: italic;
+}
